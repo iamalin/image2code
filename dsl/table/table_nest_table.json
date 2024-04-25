@@ -1,0 +1,74 @@
+{
+    "component": "Table",
+    "children": [
+              {
+                        "component": "Column",
+                        "label": "Name",
+                        "width": "15%"
+              },
+              {
+                        "component": "Column",
+                        "label": "Platform",
+                        "width": "15%"
+
+              },
+              {
+                        "component": "Column",
+                        "label": "Version",
+                        "width": "15%"
+              },
+              {
+                        "component": "Column",
+                        "label": "Upgraded",
+                        "width": "15%"
+              },
+              {
+                        "component": "Column",
+                        "label": "Creator",
+                        "width": "15%"
+
+              },
+              {
+                        "component": "Column",
+                        "label": "Date",
+                        "width": "15%"
+              },
+              {
+                        "component": "Column",
+                        "label": "Action",
+                        "width": "10%"
+              }
+    ],
+    "expandable": {
+        "component": "Table",
+        "children": [
+                  {
+                            "component": "Column",
+                            "label": "Date",
+                            "width": "30%"
+                  },
+                  {
+                            "component": "Column",
+                            "label": "Name",
+                            "width": "30%"
+    
+                  },
+                  {
+                            "component": "Column",
+                            "label": "Status",
+                            "width": "10%"
+                  },
+                  {
+                            "component": "Column",
+                            "label": "Upgrade Status",
+                            "width": "20%"
+                  },
+                  {
+                            "component": "Column",
+                            "label": "Action",
+                            "width": "20%"
+                  }
+        ]
+    }
+}
+

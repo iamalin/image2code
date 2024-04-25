@@ -1,0 +1,57 @@
+{
+    "component": "Table",
+    "children": [
+        {
+            "component": "Column",
+            "label": "First Name",
+            "width": "20%"
+        },
+        {
+            "component": "Column",
+            "label": "Last Name",
+            "width": "20%"
+        },
+        {
+            "component": "Column",
+            "label": "Birthday",
+            "width": "20%"
+        },
+        {
+            "component": "Column",
+            "label": "Age",
+            "width": "10%"
+        },
+        {
+            "component": "Column",
+            "label": "Address",
+            "width": "40%"
+        }
+    ],
+    "expandable": {
+        "component": "Description",
+        "layout": "horizontal",
+        "children": [
+            {
+                "component": "Item",
+                "label": "First Name"
+            },
+            {
+                "component": "Item",
+                "label": "Last Name"
+            },
+            {
+                "value": "Item",
+                "label": "Age"
+            },
+            {
+                "component": "Item",
+                "label": "Address"
+            },
+            {
+                "value": "Item",
+                "label": "Birthday",
+                "span": "3"
+            }
+        ]
+    }
+}

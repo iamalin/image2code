@@ -1,0 +1,69 @@
+{
+    "component": "Table",
+    "children": [
+        {
+            "component": "Column",
+            "label": "Full Name",
+            "fixed": "left",
+            "width": "100"
+        },
+        {
+            "component": "Column",
+            "label": "Age",
+            "fixed": "left",
+            "width": "100",
+            "sorter": true
+        },
+        {
+            "component": "Column",
+            "label": "Column1"
+        },
+        {
+            "component": "Column",
+            "label": "Column2"
+        },
+        {
+            "component": "Column",
+            "label": "Column3"
+        },
+        {
+            "component": "Column",
+            "label": "Column4"
+        },
+        {
+            "component": "Column",
+            "label": "Column5"
+        },
+        {
+            "component": "Column",
+            "label": "Column6"
+        },
+        {
+            "component": "Column",
+            "label": "Column7"
+        },
+        {
+            "component": "Column",
+            "label": "Column8"
+        },
+        {
+            "component": "Column",
+            "label": "Action",
+            "fixed": "right",
+            "width": "100",
+            "children": [
+                {
+                          "component": "Link",
+                          "label": "edit",
+                          "uri": ""
+                },
+                {
+                          "component": "Link",
+                          "label": "delete",
+                          "uri": ""
+                }
+      ]
+        }
+    ],
+    "expandable": true
+}

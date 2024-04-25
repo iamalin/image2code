@@ -1,0 +1,40 @@
+{
+    "component": "Table",
+    "row-selection-type": "none",
+    "children": [
+      {
+        "component": "Column",
+        "label": "Name",
+        "children": [
+          {
+            "label": "First Name",
+            "width": "20%"
+          },
+          {
+            "label": "Last Name",
+            "width": "20%"
+          }
+        ]
+      },
+      {
+        "component": "Column",
+        "label": "Age",
+        "width": "10%"
+      },
+      {
+        "component": "Column",
+        "label": "Address",
+        "width": "30%"
+      },
+      {
+        "component": "Column",
+        "label": "Tags",
+        "width": "20%",
+        "children": [
+          {
+            "component": "Tag"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,35 @@
+{
+    "component": "Table",
+    "children": [
+              {
+                        "component": "Column",
+                        "label": "First Name",
+                        "width": "30%"
+              },
+              {
+                        "component": "Column",
+                        "label": "Last Name",
+                        "width": "30%"
+
+              },
+              {
+                        "component": "Column",
+                        "label": "Age",
+                        "width": "10%"
+              },
+              {
+                        "component": "Column",
+                        "label": "Address",
+                        "width": "30%"
+              }
+    ],
+    "scrollable": {
+        "x": "max-content",
+        "y": 200
+    },
+    "pagination": {
+        "pageSize": 30,
+        "position": ["bottomRight"]
+    }
+}
+

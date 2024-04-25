@@ -1,0 +1,28 @@
+{
+    "component": "Table",
+    "children": [
+              {
+                        "component": "Column",
+                        "label": "First Name",
+                        "width": "30%"
+              },
+              {
+                        "component": "Column",
+                        "label": "Last Name",
+                        "width": "30%"
+
+              },
+              {
+                        "component": "Column",
+                        "label": "Age",
+                        "width": "10%"
+              },
+              {
+                        "component": "Column",
+                        "label": "Address",
+                        "width": "40%"
+              }
+    ],
+    "expandable": false
+}
+
